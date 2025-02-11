@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+    #slider .text-heading span {
+        display: none;
+
+    }
+
+    #slider .text-content .text-heading {
+        min-width: 0;
+    }
+
+    #content .section-info {
+        display: block;
+    }
+
+    #content .content-section {}
+
+    #content .about-text {
+        display: none;
+    }
+
+    .section-contact .form-btn button {}
+
+    #content .report-content,
+    .content-section .images-list,
+    .content-section .section-contact {
+        display: block;
+    }
+
+
+}
