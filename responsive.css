@@ -4,6 +4,27 @@
 
     }
 
+    .text-about {
+        margin: 120px 0;
+    }
+
+    .slider-report {
+        position: relative;
+        background-image: url('./images/pexels-ahmetyuksek-30590319.jpg');
+        background-size: cover;
+        background-position: top center;
+        height: 80vh;
+        width: 100%;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        background-attachment: fixed;
+
+    }
+
+    .slider-report .report-content {
+        padding: 32px 0;
+    }
+
     #slider .text-content .text-heading {
         min-width: 0;
     }
@@ -26,5 +47,13 @@
         display: block;
     }
 
+    .contact-form,
+    .contact-img {
+        padding: 0;
+    }
+
+    .form-btn {
+        margin-bottom: 32px;
+    }
 
 }
