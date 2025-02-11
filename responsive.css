@@ -4,6 +4,26 @@
 
     }
 
+    #slider {
+        position: relative;
+        background-attachment: fixed;
+        background-image: url('./images/download.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        width: auto;
+        filter: grayscale(30%);
+    }
+
+    .content-section .images-list .item {
+        padding: 8px 0;
+    }
+
+    .section-info .profile-info {
+        padding: 0;
+    }
+
     .text-about {
         margin: 120px 0;
     }
@@ -33,13 +53,13 @@
         display: block;
     }
 
-    #content .content-section {}
+
 
     #content .about-text {
         display: none;
     }
 
-    .section-contact .form-btn button {}
+
 
     #content .report-content,
     .content-section .images-list,
