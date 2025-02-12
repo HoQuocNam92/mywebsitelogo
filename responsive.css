@@ -45,7 +45,7 @@
         display: none;
     }
 
-    .text-heading {
+    #slider .text-content .text-heading {
         width: 250px;
     }
 
