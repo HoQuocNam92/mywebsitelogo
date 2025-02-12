@@ -73,6 +73,15 @@
         margin: 0 0 42px 0;
     }
 
+    .form .form-row {
+        display: block;
+
+    }
+
+    .form .form-row .form-input {
+        margin: 8px 0;
+    }
+
     .slider-report {
         position: relative;
         background-image: url('./images/pexels-ahmetyuksek-30590319.jpg');
