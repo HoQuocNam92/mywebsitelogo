@@ -70,7 +70,11 @@
     }
 
     .text-about {
-        margin: 0 0 42px 0;
+        margin: 120px 0 40px 0;
+    }
+
+    .content-section #text-about {
+        margin: 0 0 38px 0;
     }
 
     .form .form-row {
