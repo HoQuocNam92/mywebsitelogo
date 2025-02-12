@@ -4,6 +4,14 @@
 
     }
 
+    #header .nav {
+        display: none;
+    }
+
+    .text-heading {
+        width: 250px;
+    }
+
     #slider {
         position: relative;
         background-attachment: fixed;
