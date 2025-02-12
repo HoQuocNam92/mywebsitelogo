@@ -4,7 +4,44 @@
 
     }
 
+    #header #menu-toggle:checked~.nav .header-menu {
+        display: block;
+    }
+
+    #header .header-menu .menu-search {
+        display: block;
+    }
+
     #header .nav {
+        width: 100%;
+    }
+
+    #header .navbars {
+        display: block;
+        font-size: 14px;
+        padding: 12px;
+        cursor: pointer;
+    }
+
+    #header .navbars:hover {
+        background-color: black;
+        color: #fff;
+    }
+
+    #header .nav .header-menu {
+        display: none;
+        background-color: #fff;
+    }
+
+    .nav .header-menu a {
+        width: 100%;
+    }
+
+    #header .nav li {
+        display: block;
+    }
+
+    #header .search-btn {
         display: none;
     }
 

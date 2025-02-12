@@ -18,15 +18,23 @@
 <body>
     <div id="main">
         <div id="header">
+            <input type="checkbox" id="menu-toggle" hidden>
             <div class="nav">
+
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href=""><i class="fa-solid fa-person"></i>About</a></li>
+                </ul>
+                <ul class="header-menu">
+                    <li><a href=""> About</a></li>
                     <li><a href="">Portfolio</a></li>
-                    <li><a href="">
-                            <i class="fa-solid fa-envelope"></i>Contact</a></li>
+                    <li><a href=""> Contact</a></li>
+                    <li><a class="menu-search" href="">Search</a></li>
                 </ul>
             </div>
+            <label class="navbars" for="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
             <div class="search-btn">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>

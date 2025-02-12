@@ -24,13 +24,28 @@ body {
     margin-right: 4px;
 }
 
+#header .header-menu .menu-search {
+    display: none;
+}
+
 #header .nav {
     display: inline-block;
+}
+
+#header .navbars {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
 }
 
 #header .search-btn {
     float: right;
 
+}
+
+#header .nav ul {
+    display: inline-block;
 }
 
 .nav li {
